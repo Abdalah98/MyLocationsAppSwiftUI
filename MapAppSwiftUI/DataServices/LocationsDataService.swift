@@ -11,6 +11,27 @@ import MapKit
 class LocationsDataService {
     
     static let locations: [Location] = [
+      Location(
+          name: "Giza Pyramids",
+          cityName: "Giza",
+          coordinates: CLLocationCoordinate2D(latitude: 29.976480, longitude: 31.131302),
+          description: "The Giza pyramid complex, also called the Giza necropolis, is the site on the Giza Plateau in Greater Cairo, Egypt that includes the Great Pyramid of Giza, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx of Giza. All were built during the Fourth Dynasty of the Old Kingdom of Ancient Egypt, between 2600 and 2500 BC. The site also includes several cemeteries and the remains of a workers' village..",
+          imageNames: [
+              "1",
+              "2",
+              "3",
+          ],link: "https://en.wikipedia.org/wiki/Giza_pyramid_complex"),
+      
+      Location(
+          name: "Citadel",
+          cityName: "Cairo",
+          coordinates: CLLocationCoordinate2D(latitude: 30.023833238, longitude: 31.25583231),
+          description: "The Citadel of Cairo or Citadel of Saladin (Arabic: قلعة صلاح الدين, romanized: Qalaʿat Salāḥ ad-Dīn) is a medieval Islamic-era fortification in Cairo, Egypt, built by Salah ad-Din (Saladin) and further developed by subsequent Egyptian rulers. It was the seat of government in Egypt and the residence of its rulers for nearly 700 years from the 13th to the 19th centuries. Its location on a promontory of the Mokattam hills near the center of Cairo commands a strategic position overlooking the city and dominating its skyline. At the time of its construction, it was among the most impressive and ambitious military fortification projects of its time.[1] It is now a preserved historic site, including mosques and museums.",
+          imageNames: [
+              "١١",
+              "٢",
+              "55",
+          ],link: "https://en.wikipedia.org/wiki/Cairo_Citadel"),
         Location(
             name: "Colosseum",
             cityName: "Rome",
