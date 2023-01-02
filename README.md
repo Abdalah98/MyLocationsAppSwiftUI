@@ -1,9 +1,12 @@
 # MyLocationsAppSwiftUI
+
 My Locations app in SwiftUI with MVVM and MapKit
 
  
  ### Features
-  • SwiftUI
+ 
+ 	 • SwiftUI
+  
  	• Project Organization & Architecture	
 	
 	• MVVM 
